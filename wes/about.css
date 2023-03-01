@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@700&display=swap');
+body{
+    /* background-color: #e2d4bc; */
+    background-color: #edf8fe;
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+	transition: 1s opacity;
+}
+
+body .fade-in{
+	opacity: 0;
+	transition: none;
+}
+ 
+  .card {
+  background-color: #2e424c;
+    /* background-color:#95d6f6; */
+   opacity: 0.8;
+    width: 103.5%;
+    height: 350px;
+    position: relative;
+    top: 550px;
+   right: 25px;
+    
+  
+  }   
+  
+   .container {
+    padding: 2px 16px;
+  } 
+
+  
+  .navMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* background-color: #2e424c; */
+    opacity: 0.8;
+    box-shadow: 1px 1px 5px 0px var(--gray);
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    width: 90%;
+    height: 11%;
+    border-radius: 90px;
+  }
+  
+  .navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    top: 35px;
+    left: 45px;
+  
+  }
+  
+  .navMenu a:hover {
+    color: #13252d;
+    /* text-shadow: 0 0 7px #13252d,
+    0 0 10px #13252d,
+    0 0 21px #13252d,
+    0 0 42px #13252d,
+    0 0 82px #13252d,
+    0 0 92px #13252d,
+    0 0 102px #13252d,
+    0 0 151px #13252d; */
+  
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #13252d;
+    /* text-shadow: 0 0 7px #13252d,
+    0 0 10px #13252d,
+    0 0 21px #13252d,
+    0 0 42px #13252d,
+    0 0 82px #13252d,
+    0 0 92px #13252d,
+    0 0 102px #13252d,
+    0 0 151px #13252d; */
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    top: 35px;
+    left: 45px;
+    
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    position: relative;
+    top: 35px;
+    left: 45px;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+    left: 45px;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+    left: 45px;
+   
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+    left: 45px;
+    
+  }
+  h1 {
+    text-transform: uppercase;
+  
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+   
+    outline: none;
+    text-align: center;
+      position: relative;
+      top: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+  }
+
+  h1:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+
+.text{
+    white-space: nowrap;
+    /* font-family: sans-serif; */
+    font-family: 'Noto Serif Toto', serif;
+    outline: none;
+    text-align: center;
+
+      position: relative;
+      top: 300px;
+      line-height: 26pt;
+      text-size-adjust: none;
+      text-size-adjust: auto;
+      text-overflow: ellipsis;
+   
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    font-weight: 400;
+        text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+top: 22px;
+left: 880px;  
+background-color: #2e424c;
+  }
